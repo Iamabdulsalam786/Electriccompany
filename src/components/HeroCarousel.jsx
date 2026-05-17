@@ -32,12 +32,12 @@ export default function HeroCarousel() {
                       <p className="mb-4 fs-6 text-light" style={{ opacity: 0.9, lineHeight: "1.7" }}>
                         Deploy state-of-the-art grid distribution systems, high-voltage transformers, and intelligent energy management panels designed for modern sustainable infrastructures.
                       </p>
-                      <div className="d-flex justify-content-center justify-content-md-start align-items-center gap-3 mb-4">
-                        <a className="btn btn-light py-3 px-4 fw-bold d-flex align-items-center gap-2" href="#ServiceTab-1" style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.1)" }}>
+                      <div className="hero-cta-btn-group d-flex justify-content-center justify-content-md-start align-items-center gap-3 mb-4">
+                        <a className="btn btn-light hero-cta-btn fw-bold d-flex align-items-center gap-2" href="#ServiceTab-1" style={{ boxShadow: "0 4px 15px rgba(0,0,0,0.1)" }}>
                           <i className="fas fa-th-large text-primary"></i> 
                           <span>Explore Solutions</span>
                         </a>
-                        <a className="btn btn-primary py-3 px-4 fw-bold" href="/contact" style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(79, 70, 229, 0.2)" }}>
+                        <a className="btn btn-primary hero-cta-btn fw-bold text-white" href="/contact" style={{ boxShadow: "0 4px 15px rgba(79, 70, 229, 0.2)" }}>
                           Request System Audit
                         </a>
                       </div>
@@ -67,12 +67,12 @@ export default function HeroCarousel() {
                       <p className="mb-4 fs-6 text-light" style={{ opacity: 0.9, lineHeight: "1.7" }}>
                         We connect commercial enterprises and factories with elite automation controllers and substation support systems that maximize operational reliability.
                       </p>
-                      <div className="d-flex justify-content-center justify-content-md-start align-items-center gap-3 mb-4">
-                        <a className="btn btn-light py-3 px-4 fw-bold d-flex align-items-center gap-2" href="#ServiceTab-1" style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(0,0,0,0.1)" }}>
+                      <div className="hero-cta-btn-group d-flex justify-content-center justify-content-md-start align-items-center gap-3 mb-4">
+                        <a className="btn btn-light hero-cta-btn fw-bold d-flex align-items-center gap-2" href="#ServiceTab-1" style={{ boxShadow: "0 4px 15px rgba(0,0,0,0.1)" }}>
                           <i className="fas fa-th-large text-primary"></i> 
                           <span>Explore Solutions</span>
                         </a>
-                        <a className="btn btn-primary py-3 px-4 fw-bold" href="/contact" style={{ borderRadius: "12px", boxShadow: "0 4px 15px rgba(79, 70, 229, 0.2)" }}>
+                        <a className="btn btn-primary hero-cta-btn fw-bold text-white" href="/contact" style={{ boxShadow: "0 4px 15px rgba(79, 70, 229, 0.2)" }}>
                           Request System Audit
                         </a>
                       </div>

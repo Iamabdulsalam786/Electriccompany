@@ -382,6 +382,177 @@ h6,
   box-shadow: 0 6px 15px rgba(79, 70, 229, 0.4);
 }
 
+.team-social-icon-light:hover {
+  background: var(--bs-primary);
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+
+/* ========================================================
+   PREMIUM CAROUSEL & SWIPER BUTTON OVERRIDES (RESPONSIVE)
+   ======================================================== */
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 46px !important;
+  height: 46px !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 50% !important;
+  color: #ffffff !important;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.35) !important;
+  transform: scale(1.05);
+}
+
+/* Premium responsive cta buttons in Hero */
+.hero-cta-btn {
+  padding: 14px 28px !important;
+  font-size: 0.95rem !important;
+  border-radius: 12px !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.hero-cta-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ========================================================
+   GLOBAL MOBILE RESPONSIVENESS OVERRIDES
+   ======================================================== */
+
+@media (max-width: 991px) {
+  .header-carousel-item {
+    height: 520px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Completely hide swiper navigation arrows on mobile (swipe gestures are native!) */
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+
+  .header-carousel-item {
+    height: 480px !important;
+  }
+
+  .carousel-caption {
+    padding: 20px 12px !important;
+  }
+
+  /* Responsive Hero Text downsizes */
+  .header-carousel-item h1 {
+    font-size: 1.7rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 12px !important;
+    font-weight: 700 !important;
+  }
+
+  .header-carousel-item p {
+    font-size: 0.82rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 18px !important;
+    opacity: 0.9 !important;
+  }
+
+  .header-carousel-item h4 {
+    font-size: 0.72rem !important;
+    letter-spacing: 1.5px !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* Sleek Responsive Button Stack */
+  .hero-cta-btn-group {
+    gap: 8px !important;
+    justify-content: center !important;
+  }
+
+  .hero-cta-btn {
+    padding: 9px 15px !important;
+    font-size: 0.76rem !important;
+    border-radius: 8px !important;
+  }
+  
+  .hero-cta-btn i {
+    font-size: 0.72rem !important;
+  }
+
+  /* Responsive Spacing for Bento Grid & About section columns */
+  .about-item-link {
+    padding: 10px 14px !important;
+    border-radius: 14px !important;
+  }
+
+  .about-item-link h5 {
+    font-size: 0.85rem !important;
+  }
+
+  .about-item-link span {
+    font-size: 0.7rem !important;
+  }
+  
+  .floating-stat-box {
+    padding: 8px 14px !important;
+    border-radius: 12px !important;
+  }
+  
+  .floating-stat-box h4 {
+    font-size: 0.95rem !important;
+  }
+  
+  .floating-stat-box p {
+    font-size: 0.7rem !important;
+  }
+
+  .cinematic-team-card {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .team-floating-glass-box {
+    padding: 16px 14px !important;
+    margin: -24px 10px 0 10px !important;
+    border-radius: 20px !important;
+  }
+  
+  .team-serif-name {
+    font-size: 1.15rem !important;
+  }
+  
+  .team-gold-role {
+    font-size: 0.7rem !important;
+    letter-spacing: 1px !important;
+  }
+
+  .bento-service-card {
+    padding: 20px !important;
+    border-radius: 20px !important;
+  }
+  
+  .bento-icon-wrapper {
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 10px !important;
+    margin-bottom: 16px !important;
+  }
+}
+
 .team-info-body {
   border-radius: 0 0 20px 20px;
 }
