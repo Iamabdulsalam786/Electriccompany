@@ -143,13 +143,15 @@ export default function Navbar() {
             {/* Premium Get Solution CTA button */}
             <Link 
               href="/contact" 
-              className="btn btn-primary py-2 px-4 text-center"
+              className="btn btn-primary text-center"
               style={{ 
                 borderRadius: "8px", 
                 fontWeight: "600",
                 backgroundColor: "var(--bs-primary)",
                 border: "none",
-                boxShadow: "0 4px 12px rgba(79, 70, 229, 0.2)"
+                boxShadow: "0 4px 12px rgba(79, 70, 229, 0.2)",
+                padding: "6px 36px", /* Sleeker height, wider width! */
+                fontSize: "0.85rem"
               }}
             >
               Get Solution
@@ -210,12 +212,14 @@ export default function Navbar() {
           {/* Gold Glowing CTA inside Drawer */}
           <Link 
             href="/contact" 
-            className="btn btn-primary py-2.5 px-4 w-100 fw-bold text-center"
+            className="btn btn-primary w-100 fw-bold text-center"
             style={{ 
               borderRadius: "10px", 
               backgroundColor: "var(--bs-primary)",
               border: "none",
-              boxShadow: "0 4px 12px rgba(79, 70, 229, 0.2)"
+              boxShadow: "0 4px 12px rgba(79, 70, 229, 0.2)",
+              padding: "8px 36px", /* Sleeker height, wider width! */
+              fontSize: "0.88rem"
             }}
             onClick={() => setIsOpen(false)}
           >
